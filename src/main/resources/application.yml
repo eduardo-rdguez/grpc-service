@@ -4,3 +4,8 @@ spring:
   output:
     ansi:
       enabled: ALWAYS
+grpc:
+  server:
+    port: 9090
+    health-service-enabled: false
+  inProcessName: grpc-service
