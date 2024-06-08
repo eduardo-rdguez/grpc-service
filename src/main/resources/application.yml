@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: grpc-service
+  output:
+    ansi:
+      enabled: ALWAYS
